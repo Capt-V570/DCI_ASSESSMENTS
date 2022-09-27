@@ -35,8 +35,19 @@ print(isOdd(0), isEven(0))
 
 print("\n>>> Task 2 <<<\n")
 
+number = str(input("Enter a number here: "))
+
 def getParity():
-    
+    if int(number) % 2 == 0:
+        print("Even")
+        return True
+    else:
+        print("Parity indicated is unknown")
+        return False
+
+print(getParity(-2, 'number'))
+
+
 
 '''
 # Task 3
@@ -50,7 +61,4 @@ print("\n>>> Task 4 <<<\n")
 # Task 5
 
 print("\n>>> Task 5 <<<\n")
-
-
-
 '''
