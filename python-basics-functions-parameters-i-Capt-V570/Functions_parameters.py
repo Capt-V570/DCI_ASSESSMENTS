@@ -35,7 +35,7 @@ print(isOdd(0), isEven(0))
 
 print("\n>>> Task 2 <<<\n")
 
-number = str(input("Enter a number here: "))
+number = (input("Enter a number here: "))
 
 def getParity():
     if int(number) % 2 == 0:
